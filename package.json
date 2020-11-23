@@ -1,0 +1,25 @@
+{
+  "name": "express-api-error-handler-v2",
+  "version": "1.0.0",
+  "description": "Handle common error on api rest project with express js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanskovich/express-api-error-handler.git"
+  },
+  "keywords": [
+    "express-error",
+    "error-handler",
+    "rest-api",
+    "expressjs"
+  ],
+  "author": "Bryanskovich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryanskovich/express-api-error-handler/issues"
+  },
+  "homepage": "https://github.com/bryanskovich/express-api-error-handler#readme"
+}
