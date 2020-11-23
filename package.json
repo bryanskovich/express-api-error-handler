@@ -16,7 +16,7 @@
     "rest-api",
     "expressjs"
   ],
-  "author": "bryanskovich <gilchristbryanadjei@gmail.com>",
+  "author": "Bryanskovich",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bryanskovich/express-api-error-handler/issues"
