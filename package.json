@@ -1,5 +1,5 @@
 {
-  "name": "express-api-error-handler",
+  "name": "express-api-error-handler-v2",
   "version": "1.0.0",
   "description": "Handle common error on api rest project with express js",
   "main": "index.js",
