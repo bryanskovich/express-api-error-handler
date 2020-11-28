@@ -2,8 +2,7 @@ const AppError = require("./classes/AppError");
 const AuthError = require("./classes/AuthError");
 const NotFoundError = require("./classes/NotFoundError");
 const PermissionError = require("./classes/PermissionError");
-
-module.exports = (err, req, res, next) => {
+const errorHandler =  (err, req, res, next) => {
 	if (err && err instanceof AppError) {
 		return res.status(err.code).json({
 			success: false,
@@ -13,8 +12,10 @@ module.exports = (err, req, res, next) => {
 		});
 	}
 };
-
-exports.AppError = AppError;
-exports.AuthError = AuthError;
-exports.NotFoundError = NotFoundError;
-exports.PermissionError = PermissionError;
+module.exports = {
+	AppError:AppError,
+	AuthError:AuthError,
+	NotFoundError:NotFoundError,
+	PermissionError:PermissionError,
+	errorHandler : errorHandler
+}
